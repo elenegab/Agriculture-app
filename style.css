@@ -1,0 +1,21 @@
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+}
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 5px;
+    
+}
+.each-menu{
+    margin-left: 30px;
+}
+
+header{
+    display: flex;
+    vertical-align: middle;
+}
