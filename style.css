@@ -1,21 +1,118 @@
-.logo{
-    display: inline-block;
-    vertical-align: middle;
+body{
+    background-color: #F9F8F8;
+}
+header{
+    background-color: #FFFFFFE5;
     display: flex;
+    vertical-align: middle;
+    height: 50px;
+    padding-top: 30px;
+}
+.logo{
+    
+    display: flex;
+    margin-left: 12%;
+
+}
+.mini-logo{
+   position: relative;
+   top: -18px;
+   left: -5px;
 }
 .menu{
     display: inline-block;
     vertical-align: middle;
     display: flex;
-    margin-left: 30%;
-    margin-top: 5px;
+    margin-left: 150px;
+    margin-top: 2px;
     
 }
 .each-menu{
     margin-left: 30px;
 }
 
-header{
+
+
+h3{
+    background-color: #ECECEC;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+
+
+}
+.main-page{
     display: flex;
-    vertical-align: middle;
+    align-items: center;
+    
+    
+}
+.main-text{
+    width: 600px;
+    height: 400px;
+    margin:0px 5px 0 60px ;
+   
+}
+.small-text{
+    width: 350px;
+}
+.big-text{
+    width: 500px;
+}
+.photo{
+    width: 400px;
+    height: 400px;
+    margin: 30px 0 0 60px;
+    
+}
+.container{
+    width: 910px;
+    margin-left: 10%;
+   
+}
+
+.text1{
+    font-family: 'Yellowtail', cursive;
+    color: #7EB693;
+    font-size: 20px;
+}
+.text2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #274C5B;
+}
+.text3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #525C60;
+}
+
+.container2{
+    display: flex;
+    margin-left: 15%;
+}
+.box{
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 200px;
+    margin: 90px 30px 30px 0;
+    
+
+}
+.box-text1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #274C5B;
+
+}
+.box-text2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: #525C60;
 }
